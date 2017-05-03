@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!--
+  Filename: index_v3.html
+  Author: Daniel Lenselink
+  Date: 2017-03-20
+-->
+<html lang="en">
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Disc Comparer</title>
+    <meta name="description" content="Project 1: CWEB 1111 [Version 3]">
+    <meta name="keywords" content="Project, 1, CWEB, 1111">
+    <meta name="author" content="Daniel Lenselink | Christopher Wiisanen | Jacob Burnett">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/LOGO.PNG">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-table.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/index_v3.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-table.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  </head>
+  
+  <body>
+    <div class="container-fluid" style="padding-left: 0em; padding-right: 0em; font-family: 'Raleway', sans-serif !important;">
+      <div id="head_container">
+        <img src="img/LOGO.png" alt="logo" style="float: left; padding: 1em 0em 1em 0em;">
+        <a href="http://tinyurl.com/jd6sk5s">
+          <div class="nav_link">
+            <p>COURSES</p>
+          </div>
+        </a>
+        <a href="http://tinyurl.com/gqso4ab">
+          <div class="nav_link">
+            <p>LEAGUES</p>
+          </div>
+        </a>
+        <a href="http://tinyurl.com/4vtld">
+          <div class="nav_link">
+            <p>INFO</p>
+          </div>
+        </a>
+       <!--end NAV-->
+        <div class="social_media_link">
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/FACEBOOK.png" alt="facebook" style="padding: .7em 0em 0em .65em;">
+            <div class="overlay">
+              <a class="info" href="http://www.facebook.com/">GO</a>
+            </div>
+          </div> 
+        </div>
+        <div class="social_media_link">
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/TWITTER.png" alt="twitter" style="padding: .7em 0em 0em .65em;">
+            <div class="overlay">
+              <a class="info" href="http://www.twitter.com/">GO</a>
+            </div>
+          </div>
+        </div>
+        <div class="social_media_link">
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/INSTAGRAM.png" alt="instagram" style="padding: .7em 0em 0em .65em;">
+            <div class="overlay">
+              <a class="info" href="http://www.instagram.com/">GO</a>
+            </div>
+          </div>   
+        </div>
+       <!--end SOCIAL MEDIA-->
+      </div>
+      <!--end HEAD CONTAINER-->
+      <div class="row">
+        <div class="col-md-12" id="main_container">
+          <div id="banner_div">
+            <div id="deco_stripe_div">
+            </div>
+            <img id="banner_img" src="img/BANNER.png" alt="banner">
+          </div>
+          <hr class="line_spacer">
+          <div id="text_container">
+            <p style="padding: 0em 6em 0em 6em;">The most popular discs on the market, compiled into simple charts as well as a convenient table.</p>
+            <br>
+            <p style="margin-bottom: 2.8em; padding: 0em 4em 0em 4em;">Interactive table design, allowing for easy fine-tuning of your search.</p>
+          </div> 
+          <hr class="line_spacer">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3" id="highcharts_1">
+                  <div id="chart_1" style="height: 400px"></div>
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3" id="highcharts_2">
+                  <div id="chart_2" style="height: 400px"></div>
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3" id="highcharts_3">
+                  <div id="chart_3" style="height: 400px"></div>
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12" id="main_button_container">
+              <button id="toggle_button" type="button" class="btn btn-secondary btn-lg">Toggle Table</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end MAIN CONTAINER-->
+      <div id="table_wrapper" class="col-md-12" style="display: none">  
+        <div id="table_container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2" id="table_element">
+              <div id="btn_group" class="btn-group">
+                <button id="compare_button" type="button" class="btn btn-primary">Compare</button>
+                <button id="refresh_button" type="button" class="btn btn-success">Uncheck</button>
+                <button id="remove_button" type="button" class="btn btn-danger">Remove</button>
+                <button id="chart_button" type="button" class="btn btn-warning">Graph</button>
+              </div>
+              <table id="data_table"
+                    data-toggle="table"
+                    data-show-toggle="true"
+                    data-show-columns="true"
+                    data-show-refresh="true"
+                    data-unique-id="name"
+                    data-search="true"
+                    data-pagination="true"
+                    data-page-size="25"
+                    data-striped="false"
+                    data-sort-name="name"
+                    data-sort-order="asc"
+                    data-url="data/raw_data.json">
+                <thead>
+                  <tr>
+                    <th id="checkbox" 
+                        data-checkbox="true">
+                    </th>
+                    <th id="discName"
+                        data-field="name"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          Name
+                    </th>
+                    <th class="col-xs-1"
+                        data-field="range_index"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          Range Index
+                    </th>
+                    <th class="col-xs-1"
+                        data-field="power"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          Power
+                    </th>
+                    <th class="col-xs-1"
+                        data-field="HSS"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          HSS
+                    </th>
+                    <th class="col-xs-1"
+                        data-field="LSS"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          LSS
+                    </th>
+                    <th class="col-xs-1"
+                        data-field="base_plastic"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          Base Plastic?
+                    </th>
+                    <th class="col-xs-1"
+                        data-field="mid-grade_plastic"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          Mid-grade Plastic?
+                    </th>
+                    <th class="col-xs-1"
+                        data-field="premium_plastic"
+                        data-sortable="true"
+                        data-align="center"
+                        data-halign="center"
+                        data-searchable="true">
+                          Premium Plastic?
+                    </th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div>
+          <script src="js/index_v3.js"></script>
+        </div>
+      </div>
+      <!--end TABLE-->
+      <div id="img_div">
+        <div class="hovereffect" style="width: 50%;">
+          <img class="img-responsive" src="img/INNOVA.png" alt="Innova Logo" style="margin: auto;">
+          <div class="overlay">
+             <h2>Innova Discs</h2>
+             <a class="info" href="http://www.innovadiscs.com/">SHOP</a>
+          </div>
+        </div>
+        <div class="hovereffect" style="width: 50%;">
+          <img class="img-responsive" src="img/DISCRAFT.png" alt="Discraft Logo" style="margin: auto;">
+          <div class="overlay">
+             <h2>Discraft Discs</h2>
+             <a class="info" href="http://discraft.com/">SHOP</a>
+          </div>
+        </div>
+      </div>
+      <!--end IMAGE DIV-->
+      <div id="credits_div">
+        <p>DiscComparer&#169; 2017</p>
+        <p>Christopher Wiisanen | Daniel Lenselink | Jacob Burnett</p>
+      </div>
+      <!--end CREDITS DIV-->
+    </div>
+    <!--end BOOTSTRAP GRID CONTAINER-->
+  </body>
+</html>

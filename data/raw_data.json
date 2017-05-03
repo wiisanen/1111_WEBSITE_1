@@ -1,0 +1,1562 @@
+[
+  {
+    "name": "D1",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Force",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "TeeRex",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Blitz",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Pulse",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Scorpius",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Sorcerer",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Jun",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Slaidi",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Boss",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "PD2_Chaos",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "DD_Hysteria",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Quasar",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Rampage",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Trespass",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Ballista",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Halo",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Double_D",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Krait",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Groove",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Dominator",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "D2",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Outlaw",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Kahu",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Grym",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Wraith",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Surge",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Destroyer",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Nuke",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Diablo_DT",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Lace",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Chimera",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Raketen",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Teedevil",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Surge_SS",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Crank",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Sword",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Torrent",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "DD2_Frenzy",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Flow",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Samurai",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -1.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Spectra",
+    "range_index": 5.5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Archon",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Wahoo",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Nuke_SS",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Rogue",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Astra",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Aries",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Inertia",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Classic_Inferno",
+    "range_index": 5.5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Bolt",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Slayer",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Cannon",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Bee_Line",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "D3",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "D5",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "TD2_Fever",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Freedom",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Quarter_K II",
+    "range_index": 5.5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Hurricane",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "King",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Renegade",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Terminator",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2,
+    "LSS": 4.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "unLace",
+    "range_index": 5.5,
+    "power": 4,
+    "HSS": -2.5,
+    "LSS": 2,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Monarch",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2.5,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Katana",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Daedalus",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Havoc",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "D4",
+    "range_index": 5.5,
+    "power": 6,
+    "HSS": -2.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Vulcan",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -2.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Mamba",
+    "range_index": 5.5,
+    "power": 4,
+    "HSS": -3,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Tern",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -3,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Daedalus_Proto",
+    "range_index": 5.5,
+    "power": 5,
+    "HSS": -3,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Ninja",
+    "range_index": 5.5,
+    "power": 4,
+    "HSS": -3,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Flick",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 1,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Scythe",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 1,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Giant",
+    "range_index": 5,
+    "power": 6,
+    "HSS": 0.5,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Enforcer",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0.5,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Xcaliber",
+    "range_index": 5,
+    "power": 6,
+    "HSS": 0.5,
+    "LSS": 4.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "World",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0.5,
+    "LSS": 4.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Thunderbird",
+    "range_index": 5,
+    "power": 4,
+    "HSS": 0,
+    "LSS": 2.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "CD2",
+    "range_index": 5,
+    "power": 4,
+    "HSS": 0,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Boatman",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Striker",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Wrath",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Legenda",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Starfire",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Da-E",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Villain",
+    "range_index": 5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "O-Lace",
+    "range_index": 5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Missilen",
+    "range_index": 5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Ape",
+    "range_index": 5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 4.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Nuke_OS",
+    "range_index": 5,
+    "power": 6,
+    "HSS": 0,
+    "LSS": 4.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Orion_LF",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Genesis",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Switch",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Photon",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Backdraft",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Avenger",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Crush",
+    "range_index": 5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Illusion",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Prometheus",
+    "range_index": 5,
+    "power": 6,
+    "HSS": -0.5,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Heat",
+    "range_index": 5,
+    "power": 3,
+    "HSS": -1,
+    "LSS": 2,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Trak",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 2,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "PD_Freak",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "FD_Jackal",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Saint",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Starfire-L_(SL)",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Inferno",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Scream",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Riot",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Tesla",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Valley",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Viking",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1.5,
+    "LSS": 2.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "XS",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1.5,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Sampo",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1.5,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Flash",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Raging_Inferno_DT",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Orion_LS",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Escape",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Wave",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Orc",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -1.5,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Beast",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 2,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Gamma_Ray",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 2,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Vision",
+    "range_index": 5,
+    "power": 3,
+    "HSS": -2,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Secret_Weapon",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Valkyrie",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Wildcat",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Scream_DT",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "100m_Lazer",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "MX-1",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Volt",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Insanity",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Procul",
+    "range_index": 5,
+    "power": 5,
+    "HSS": -2,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Roadrunner",
+    "range_index": 5,
+    "power": 3,
+    "HSS": -2.5,
+    "LSS": 1,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Sidewinder",
+    "range_index": 5,
+    "power": 3,
+    "HSS": -2.5,
+    "LSS": 2,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Impulse",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -2.5,
+    "LSS": 2,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Orbital",
+    "range_index": 5,
+    "power": 4,
+    "HSS": -3,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Spirit",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 2,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Scream_Max",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 1,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "No"
+  },
+  {
+    "name": "Predator",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 1,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Stiletto",
+    "range_index": 4.5,
+    "power": 6,
+    "HSS": 1,
+    "LSS": 4.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Rask",
+    "range_index": 4.5,
+    "power": 6,
+    "HSS": 0.5,
+    "LSS": 4,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Teebird",
+    "range_index": 4.5,
+    "power": 4,
+    "HSS": 0,
+    "LSS": 2.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Teebird3",
+    "range_index": 4.5,
+    "power": 4,
+    "HSS": 0,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Rival",
+    "range_index": 4.5,
+    "power": 4,
+    "HSS": 0,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Raging_Inferno",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "Yes",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Saint_Pro",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Fireball",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Tsunami",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "Yes",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Motion",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Servo",
+    "range_index": 4.5,
+    "power": 4,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Phase",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 3.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Speed_Demon",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 4.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Max",
+    "range_index": 4.5,
+    "power": 5,
+    "HSS": 0,
+    "LSS": 5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  },
+  {
+    "name": "Ascent",
+    "range_index": 4.5,
+    "power": 4,
+    "HSS": -0.5,
+    "LSS": 2.5,
+    "base_plastic": "No",
+    "mid-grade_plastic": "No",
+    "premium_plastic": "Yes"
+  }
+]
