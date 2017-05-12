@@ -1,0 +1,438 @@
+<!--
+  Chris Wiisanen, Dan Lenselink, 
+  Assignment 8
+  2017-05-08
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Microsoft Visual Studio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta name="description" content="Microsoft Visual Studio IDE">
+    <meta name="keywords" content="Microsoft, Visual Studio, IDE, c#">
+    <meta name="author" content="Chris Wiisanen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-----------------
+    begin CSS ASSETS
+   ------------------>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/history.css">
+   <!-----------------
+    end CSS ASSETS
+   ------------------>
+  </head>
+  
+  <!--Header Dropdown-->
+  <body style="background-image: url(img/visual-studio-wallpaper.png);">
+    <div class="collapse bg-inverse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 py-4">
+            <h4 class="text-purple">Visual Studio IDE</h4>
+            <p class="text-muted">Microsoft	Visual Studio is an	integrated development environment (IDE) from Microsoft. It	
+								can	be used to develop console and graphical user interface applications along with 
+								Windows	Forms applications,	web	sites, web applications, and web services in both native
+								code together with managed code	for	all	platforms supported	by	Microsoft Windows,
+								Windows Phone, Windows CE, .NET Framework, .NET Compact Framework and Microsoft Silverlight.</p>
+          </div>
+		  
+		  <!--Navigation-->
+          <div class="col-sm-4 py-4">
+            <h4 class="text-purple">Navigation</h4>
+            <ul class="list-unstyled">
+              <li><a href="history.html" class="text-white">History Of Visual Studio</a></li>
+              <li><a href="keyboard.html" class="text-muted">Keyboard Shortcuts</a></li>
+              <li><a href="sandw.html" class="text-muted">Strengths and Weaknesses</a></li>
+			  <li><a href="plugins.html" class="text-muted">Popular Plugins</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+	<!--LOGO-->
+    <div class="navbar navbar-inverse bg-inverse">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand">
+          <img class="img-fluid" src="img/VisualStudio.png" alt="Microsoft Visual Studio logo" style="max-height: 100%; max-width: 100%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+	
+    <!--Heading-->
+	<div class="row">
+      <div class="col-8 offset-2" style="margin: 4em auto 3em auto;">
+        <section class="headbox jumbotron text-center">
+          <div class="container">
+            <h1 class="headtext jumbotron-heading">The History Of Microsoft Visual Studio</h1>
+          </div>
+        </section>
+      </div>    
+    </div>
+	
+	<!--IDE-->
+	<div class="row">
+      <div class="col-8 offset-2">
+		<section class="idebox jumbotron text-center">
+		   <div class="container">
+			   <h2>What is an IDE?</h2>
+			   <p>An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer
+			   programmers for software development. IDE's typically contain a code editor, a compiler or interpreter, and a debugger
+			   that the developer accesses through a single graphical user interface. It can be a standalone application, or it may be included 
+			   as part of one or more existing and compatible applications.Became possible when developing via a console or terminal. 
+			   Early systems could not support one, since programs were prepared using flowcharts, entering programs with punched 
+			   cards before submitting them to a compiler. Dartmouth BASIC was the first language to be created with an IDE</p>
+		   </div>
+		</section>
+      </div>
+    </div>
+	
+    <!--Visual Studio Introduction-->
+	<div class="row">
+      <div class="col-8 offset-2">
+		<section class="vsintrobox jumbotron text-center">
+		   <div class="container">
+			   <h2>What is Visual Studio?</h2>
+			   <p>Visual Studio is one of the most famous Microsoft products and is specifically designed for development goals.
+			   It's the most popular tool for all developers who use Microsoft development technologies and is widely used by 
+			   developers around the world. It is built on an Integrated Development Environment (IDE) and enables users to
+			   build different types of applications using Microsoft programming languages. Visual Studio, which is abbreviated
+			   as V.S. by community members, supports several platforms and programming languages "Out of the box,” that is
+			   without requiring additional installations, plug-ins, expansion packs, or products.</p>
+				<br />
+			   <h2>The Beginning: Visual Studio 97</h2>
+			   <p>1997 was the first year in which Microsoft tried to build a single environment for developing
+			   in multiple languages. In that year, it introduced Visual Studio as an IDE for development, and it included the
+			   following elements and languages: Visual Basic 5.0, Visual 5.0, Visual FoxPro 5.0 (for XBase programming),
+			   Visual J++ 1.1 (for Java programming for Windows), Visual InterDev (for creating dynamic web pages With ASP),
+			   MSDN (Microsoft Developer Network), Visual C++, Visual J++, Visual InterDev, and MSDN used the same environment
+			   named Developer Studio, while Visual Basic and Visual FoxPro had their own environments.
+			   Visual Studio 97 was a first attempt and a first version, but even then it was a great development. Back then,
+			   every developer could enjoy working in this IDE. Current versions of Visual Studio are very different,
+			   in terms of both the user interface and the features that are included. The internal version of Visual Studio 97 was 5.0.</p>
+		   </div>
+		</section>
+      </div>
+    </div>
+	
+	<!-- Version Release Table -->
+	<div class="row">
+      <div class="col-8 offset-2">
+		<section class="historybox jumbotron text-center">
+		   <div class="container">
+				<h2 style= "text-decoration: underline;">Version Release Dates</h2>
+				<p>Prior to Visual Studio Version 4.0, there were Visual Basic 3, Visual C++, Visual FoxPro and Visual SourceSafe as separate products.</p>
+				<table class="versiontable wikitable plainrowheaders" style="text-align:center">
+					<tr>
+						<th scope="col">Product name</th>
+						<th scope="col">Codename</th>
+						<th scope="col">Version number</th>
+						<th scope="col">Version of<br />
+										cl.exe</th>
+						<th scope="col">Supported .NET<br />
+										Framework versions</th>
+						<th scope="col">Supported .NET Core Versions</th>
+						<th scope="col">Release date</th>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 97</th>
+						<td><i>Boston</i></td>
+						<td>5.0</td>
+						<td>N/A</td>
+						<td>N/A</td>						
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000001997-02-01-0000</span><span style="white-space:nowrap">February 1997</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 6.0</th>
+						<td><i>Aspen</i></td>
+						<td>6.0</td>
+						<td>12.00</td>
+						<td>N/A</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000001998-06-01-0000</span><span style="white-space:nowrap">June 1998</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio .NET (2002)</th>
+						<td><i>Rainier</i></td>
+						<td>7.0</td>
+						<td>13.00</td>
+						<td>1.0</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002002-02-13-0000</span><span style="white-space:nowrap">February 13, 2002</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio .NET 2003</th>
+						<td><i>Everett</i></td>
+						<td>7.1</td>
+						<td>13.10</td>
+						<td>1.1</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002003-04-24-0000</span><span style="white-space:nowrap">April 24, 2003</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 2005</th>
+						<td><i>Whidbey</i></td>
+						<td>8.0</td>
+						<td>14.00</td>
+						<td>2.0, 3.0</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002005-11-07-0000</span><span style="white-space:nowrap">November 7, 2005</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 2008</th>
+						<td><i>Orcas</i></td>
+						<td>9.0</td>
+						<td>15.00</td>
+						<td>2.0, 3.0, 3.5</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002007-11-19-0000</span><span style="white-space:nowrap">November 19, 2007</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 2010</th>
+						<td><i>Dev10</i>/<i>Rosario</i></td>
+						<td>10.0</td>
+						<td>16.00</td>
+						<td>2.0 – 4.0</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002010-04-12-0000</span><span style="white-space:nowrap">April 12, 2010</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 2012</th>
+						<td><i>Dev11</i></td>
+						<td>11.0</td>
+						<td>17.00</td>
+						<td>2.0 – 4.5.2</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002012-09-12-0000</span><span style="white-space:nowrap">September 12, 2012</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 2013</th>
+						<td><i>Dev12</i></td>
+						<td>12.0</td>
+						<td>18.00</td>
+						<td>2.0 – 4.5.2</td>
+						<td>N/A</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002013-10-17-0000</span><span style="white-space:nowrap">October 17, 2013</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 2015</th>
+						<td><i>Dev14</i></td>
+						<td>14.0</td>
+						<td>19.00</td>
+						<td>2.0 – 4.6</td>
+						<td>1.0</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002015-07-20-0000</span><span style="white-space:nowrap">July 20, 2015</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Visual Studio 2017</th>
+						<td><i>Dev15</i></td>
+						<td>15.0</td>
+						<td>19.10</td>
+						<td>3.5 – 4.6.2</td>
+						<td>1.0-1.1</td>
+						<td><span class="sortkey" style="display:none;speak:none">000000002017-03-07-0000</span><span style="white-space:nowrap">March 7, 2017</span></td>
+					</tr>
+				</table>
+		   </div>
+		</section>
+      </div>
+    </div>
+	
+	<!-- Noteable Changes Timeline-->
+	<div class="row">
+      <div class="col-8 offset-2">
+		<section class="timelinebox jumbotron">
+		   <div class="container">
+			   <h2 style="text-align: center;">Noteable Version Features</h2>
+			   <br />
+			   
+			   <!--Visual studio 1998-->
+			   <h5>Visual Studio 6.0 - </h5>	
+			   <p>Version 6.0 (codenamed Aspen) was released in June 1998 and was the last version
+			   to run on the Windows 9x platform. The v6 edition of Microsoft was the core environment
+			   for the next four releases to provide programmers with an integrated look-alike platform.
+			   This led Microsoft to transition the development on the platform independent .NET Framework.
+			   Visual Studio 6.0 was the last version to include Visual J++, which Microsoft removed as
+			   part of a settlement with Sun Microsystems that required Microsoft Internet Explorer
+			   not to provide support for the Java virtual machine.</p>
+			   <p>Visual Studio 6.0 came in two editions: Professional and Enterprise.
+			   The Enterprise edition contained extra features not found in Professional edition, including:</p>
+			   <ul>
+				   <li>Application Performance Explorer</li>
+				   <li>Automation Manager</li>
+				   <li>Microsoft Visual Modeler</li>
+				   <li>RemAuto Connection Manager</li>
+				   <li>Visual Studio Analyzer</li>
+			   </ul>
+			   <br />
+			   
+			   <!--Visual studio 2002-->
+			   <h5>Visual Studio .NET (2002) - </h5>	
+			   <p>Microsoft released Visual Studio .NET (VS.NET) (codenamed Rainier) in February 2002.
+			   The biggest change was the introduction of a managed code development environment using the .NET Framework.
+			   Programs developed using .NET are not compiled to machine language (like C++ is, for example)
+			   but instead to a format called Microsoft Intermediate Language (MSIL) or Common Intermediate Language (CIL).
+			   When a CIL application executes, it is compiled while being executed into the appropriate machine
+			   language for the platform it is being executed on, thereby making code portable across several platforms.
+			   This was the first version of Visual Studio to require an NT-based Windows platform, the installer enforces this requirement.</p>
+			   <br />
+			   
+			   <!--Visual studio 2005-->
+			   <h5>Visual Studio 8.0 (2005) - </h5>	
+			   <p>Visual Studio 2005 was upgraded to support all the new features introduced in .NET Framework 2.0,
+			   including generics and ASP.NET 2.0. The IntelliSense feature in Visual Studio was upgraded for generics
+			   and new project types were added to support ASP.NET web services. Visual Studio 2005 also includes a
+			   local web server, separate from IIS, which can host ASP.NET applications during development and testing.
+			   It also supports all SQL Server 2005 databases.</p>
+			   <p>Other new features of Visual Studio 2005 include the "Deployment Designer"
+			   which allows application designs to be validated before deployments, an improved environment
+			   for web publishing when combined with ASP.NET 2.0 and load testing to see application
+			   performance under various sorts of user loads. Starting with the 2005 edition,
+			   Visual Studio also added extensive 64-bit support. While the host development environment
+			   itself is only available as a 32-bit application, Visual C++ 2005 supports compiling
+			   for x86-64 (AMD64 and Intel 64) as well as IA-64 (Itanium). The Platform SDK included
+			   64-bit compilers and 64-bit versions of the libraries.</p>
+			   <br />
+			   
+			   <!--Visual studio 2008-->
+			   <h5>Visual Studio 9.0 (2008) - </h5>	
+			   <p>Visual Studio 2008 and Visual Studio Team System 2008 (codenamed Orcas) were released
+			   to MSDN subscribers on November 19th 2007, alongside .NET Framework 3.5.
+			   The source code for the Visual Studio 2008 IDE is available under a shared source
+			   license to some of Microsoft's partners and ISV’s. Microsoft released Service Pack 1
+			   for Visual Studio 2008 on August 11th 2008. The internal version number of Visual
+			   Studio 2008 is version 9.0 while the file format version is 10.0. Visual Studio 2008
+			   is the last version to support targeting Windows 2000 for C++ applications.
+			   Visual Studio 2008 is focused on development of Windows Vista, 2007 Office system,
+			   and Web applications. For visual design, a new Windows Presentation Foundation visual
+			   designer and a new HTML/CSS editor influenced by Microsoft Expression Web are included
+			   (J# is not included).</p>
+			   <p>Visual Studio 2008 features include: </p>
+			   <ul>
+				   <li>An XAML-based designer (codenamed Cider)</li>
+				   <li>Workflow designer</li>
+				   <li>LINQ to SQL designer (for defining the type mappings and object encapsulation for SQL Server data)</li>
+				   <li>XSLT debugger</li>
+				   <li>JavaScript IntelliSense support</li>
+				   <li>JavaScript Debugging support</li>
+				   <li>A concurrent build system</li>
+				   <li>A multithreaded build engine (MSBuild) to compile multiple source files in a project across multiple threads simultaneously</li>
+				   <li>Support for compiling icon resources in PNG format, introduced in Windows Vista</li>
+			   </ul>
+			   <br />
+			   
+			   <!--Visual studio 2010-->
+			   <h5>Visual Studio 10.0 (2010) - </h5>
+			   <p>On April 12th 2010, Microsoft released Visual Studio 2010 (codenamed Dev10)
+			   and .NET Framework 4. The Visual Studio 2010 IDE was redesigned which, according
+			   to Microsoft, clears the UI organization and "reduces clutter and complexity."
+			   The new IDE better supports multiple document windows and floating tool windows,
+			   while offering better multi-monitor support. Visual Studio 2010 comes with .NET
+			   Framework 4 and supports developing applications targeting Windows 7.
+			   Visual Studio 2010 no longer supports development for Windows Mobile prior to Windows Phone 7.</p>
+			   <ul>
+				   <li>Tools for profiling and debugging parallel applications
+				   (Tools for profiling parallel applications can be used for
+				   visualization of thread wait-times and thread migrations across
+				   processor cores. Intel and Microsoft have jointly pledged support
+				   for a new Concurrency Runtime in Visual Studio 2010 and Intel has
+				   launched parallelism support in Parallel Studio as an add-on for Visual Studio)</li>
+				   <li>A new Help System replacing the MSDN Library viewer</li>
+				   <li>Quick Search feature to incrementally search across all symbols in C++, C# and VB.NET projects</li>
+			   </ul>
+			   <h5>Visual Studio Ultimate 2010 </h5>
+			   <p>Visual Studio Ultimate 2010 replaces Visual Studio 2008 Team Suite.
+			   It includes new modeling tools such as: </p>
+			   <ul>
+				   <li>The Architecture Explorer, which graphically displays projects
+				   and classes and the relationships between them</li>
+				   <li> Supports UML activity diagram, component diagram,
+				   (logical) class diagram, sequence diagram, and use case diagram</li>
+				   <li>Test Impact Analysis which provides hints on which test cases
+				   are impacted by modifications to the source code, without actually
+				   running the test cases. This speeds up testing by avoiding running
+				   unnecessary test cases.</li>
+				   <li>A historical debugger for managed code called IntelliTrace.
+				   Unlike a traditional debugger that records only the currently active stack,
+				   IntelliTrace records all events, such as prior function calls, method parameters,
+				   events and exceptions. This allows the code execution to be rewound in case a
+				   breakpoint was not set where the error occurred.</li>
+			   </ul>
+			   <br />
+			   
+			   <h5>Visual Studio 11.0 (2012) - </h5>	
+			   <p>Visual Studio 2012 was announced on August 1st 2012, and the official launch event was held
+			   on September 12th 2012. Unlike prior versions, Visual Studio 2012 couldn’t record and play macros,
+			   because the macro editor has been removed. "Visual Studio 2012 Update 1" was released in November 2012.
+			   This update added support for Windows XP targets and also added other new tools and features
+			   (e.g. improved diagnostics and testing support for Windows Store apps).The source code of Visual Studio 2012
+			   consists of approximately 50 million lines of code.</p>
+			   <p>Some of the new features include: </p>
+			   <ul>
+				   <li>Support for WinRT and C++/CX (Component Extensions) and C++ AMP (GPGPU programming) Semantic Colorization.</li>
+				   <li>New Solution Explorer: The new Solution Explorer allows for visualization of class and file hierarchies
+				   within a solution/project. It can search for calls to functions and uses of classes.</li>
+				   <li>Automatic display of IntelliSense list: IntelliSense is automatically displayed when typing
+				   code, as opposed to previous versions where it had to be explicitly invoked through use of
+				   certain operators or shortcut keys (Ctrl-Space or Ctrl-J).</li>
+			   </ul>
+			   <br />
+			   
+			   <h5>Visual Studio 12.0 (2013) - </h5>
+			   <p>Visual Studio 2013 officially launched on November 13th 2013 at a virtual launch event keynoted by S. Somasegar
+			   and hosted on events.visualstudio.com. "Visual Studio 2013 Update 1" was released on January 20th 2014.
+			   Update 1 was a targeted update that addressed some key areas of customer feedback. "Visual Studio 2013 Update 2”
+			   was released on May 12th 2014, and Visual Studio 2013 Update 3 was released on August 4th 2014. With this update,
+			   Visual Studio provides an option to disable the all-caps menus, which was introduced in Visual Studios 2012.
+			   "Visual Studio 2013 Update 4" was released on November 12th 2014, and "Visual Studio 2013 Update 5" was released on July 20th 2015. </p>
+			   <br />
+			   
+			   <h5>Visual Studio 15.0 - (2017) </h5>	
+			   <p>Visual Studio 2017 which was initially referred to as Visual Studio "15,”
+			   was released on March 7th 2017. The first Preview was released on March 30th 2016,
+			   with four more previews released from May 10th 2016 - October 5th 2016.
+			   On November 16, 2016, "Visual Studio 2017" was announced as the final name,
+			   and Visual Studio 2017 RC was released. On March 7th 2017, Visual Studio 2017
+			   was released for general availability. On April 5th 2017, Visual Studio 2017
+			   15.1 was released and added support for targeting the .NET Framework 4.7.</p>
+			   <p>Visual Studio 2017 offers new features such as: </p>
+			    <ul>
+				   <li>Support for EditorConfig (a coding style enforcement framework)</li>
+				   <li>NGen support</li>
+				   <li>.NET Core and Docker toolset (Preview)</li>
+				   <li>Xamarin 4.3 (Preview)</li>
+				   <li>An XAML Editor  debugging enhancement and better IDE experience and productivity</li>
+				   <li>Improved IntelliSense</li>
+				   <li>Live unit testing</li>
+				   <li>Debugging enhancement and better IDE experience and productivity</li>
+			   </ul>
+		   </div>
+		</section>
+      </div>
+    </div>
+	
+	<!--Footer-->
+    <div class="footer">
+      <div class="container">
+        <span class="text-muted">&#169; 2017 Microsoft Visual Studio Informational Website by C. Wiisanen, D. Lenselink</span>
+      </div>
+    </div>  
+   <!---------------
+      begin JS ASSETS
+   ---------------->
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sweetalert2.js"></script>     
+   <!--------------
+      end JS ASSETS
+   --------------->
+  </body>
+</html>
+
+
+

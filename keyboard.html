@@ -1,0 +1,376 @@
+<!--
+  Chris Wiisanen, Dan Lenselink, 
+  Assignment 8
+  2017-05-08
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Microsoft Visual Studio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta name="description" content="Microsoft Visual Studio IDE">
+    <meta name="keywords" content="Microsoft, Visual Studio, IDE, c#">
+    <meta name="author" content="Chris Wiisanen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-----------------
+    begin CSS ASSETS
+   ------------------>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/keyboard.css">
+   <!-----------------
+    end CSS ASSETS
+   ------------------>
+  </head>
+  
+  <body style="background-image: url(img/visual-studio-wallpaper.png);">
+    <div class="collapse bg-inverse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 py-4">
+            <h4 class="text-purple">Visual Studio IDE</h4>
+            <p class="text-muted">Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs for Microsoft Windows, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.</p>
+          </div>
+          <div class="col-sm-4 py-4">
+            <h4 class="text-purple">Navigation</h4>
+            <ul class="list-unstyled">
+              <li><a href="history.html" class="text-white">History Of Visual Studio</a></li>
+              <li><a href="keyboard.html" class="text-muted">Keyboard Shortcuts</a></li>
+              <li><a href="sandw.html" class="text-muted">Strengths and Weaknesses</a></li>
+			  <li><a href="plugins.html" class="text-muted">Popular Plugins</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="navbar navbar-inverse bg-inverse">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand">
+          <img class="img-fluid" src="img/VisualStudio.png" alt="Microsoft Visual Studio logo" style="max-height: 100%; max-width: 100%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    
+	<div class="row">
+      <div class="col-8 offset-2" style="margin: 4em auto 3em auto;">
+        <section class="headbox jumbotron text-center">
+          <div class="container">
+            <h1 class="headtext jumbotron-heading">Visual Studio C# Keyboard Shortcuts</h1>
+          </div>
+        </section>
+      </div>    
+    </div>
+	
+	<!--Keyboard Shortcuts Table-->
+	<div class="row">
+      <div class="col-8 offset-2">
+		<section class="bodybox jumbotron text-center">
+		   <div class="container">
+		   
+				<!--General-->
+				<table class="shortcuttable wikitable plainrowheaders" style="text-align:center">
+					<tr>
+						<th colspan="2" scope="col">General</th>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+P</td>
+						<td>F1 Show Command Palette</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+P</td>
+						<td>Quick Open</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+N</td>
+						<td>New window/instance</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+W</td>
+						<td>Close window/instance</td>
+					</tr>
+				</table>
+				
+				<!--Basic Editing-->
+				<table class="shortcuttable wikitable plainrowheaders" style="text-align:center">
+					<tr>
+						<th colspan="2" scope="col">Basic Editing</th>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+C</td>
+						<td>Copy line (empty selection)</td>
+					</tr>
+					<tr>
+						<td scope="row">Alt+ ↑ / ↓</td>
+						<td>Move line up/down</td>
+					</tr>
+					<tr>
+						<td scope="row">Shift+Alt + ↓ / ↑ </td>
+						<td>Copy line up/down</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+K</td>
+						<td>Delete line</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Enter</td>
+						<td>Insert line below</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+Enter</td>
+						<td>Insert line above</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+\</td>
+						<td>Jump to matching bracket</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+P</td>
+						<td>Indent/Outdent line</td>
+					</tr>
+					<tr>
+						<td scope="row">Home</td>
+						<td>Go to beginning of line</td>
+					</tr>
+					<tr>
+						<td scope="row">End</td>
+						<td>Go to end of line</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Home</td>
+						<td>Go to beginning of file</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+↑ / ↓</td>
+						<td>Scroll line up/down</td>
+					</tr>
+					<tr>
+						<td scope="row">Alt+PgUp / PgDown</td>
+						<td>Scroll page up/down</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+[</td>
+						<td>Fold (collapse) region</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+]</td>
+						<td>Unfold (uncollapse) region</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+K Ctrl+[</td>
+						<td>Fold (collapse) all subregions</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+K Ctrl+]</td>
+						<td>Unfold (uncollapse) all subregions</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+K Ctrl+0 </td>
+						<td>Fold (collapse) all regions</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+K Ctrl+J</td>
+						<td>Unfold (uncollapse) all regions</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+K Ctrl+C</td>
+						<td>Add line comment</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+K Ctrl+U</td>
+						<td>Remove line comment</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+/</td>
+						<td>Toggle line comment</td>
+					</tr>
+					<tr>
+						<td scope="row">Shift+Alt+A </td>
+						<td>Toggle block comment</td>
+					</tr>
+					<tr>
+						<td scope="row">Alt+Z</td>
+						<td>Toggle word wrap</td>
+					</tr>
+				</table>
+				
+				<!--Navigation-->
+				<table class="shortcuttable wikitable plainrowheaders" style="text-align:center">
+					<tr>
+						<th colspan="2" scope="col">Navigation</th>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+T</td>
+						<td>Show all Symbols</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+G</td>
+						<td>Go to Line...</td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td>Go to File...</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+O</td>
+						<td>Go to Symbol...</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+M</td>
+						<td>Show Problems panel</td>
+					</tr>
+					<tr>
+						<td scope="row">F8</td>
+						<td>Go to next error or warning</td>
+					</tr>
+					<tr>
+						<td scope="row">Shift+F8</td>
+						<td>Go to previous error or warning</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+Shift+Tab</td>
+						<td>Navigate editor group history</td>
+					</tr>
+					<tr>
+						<td scope="row">Alt+ ← / → </td>
+						<td>Go back / forward</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+M</td>
+						<td>Toggle Tab moves focus</td>
+					</tr>
+				</table>	
+				<table class="shortcuttable wikitable plainrowheaders" style="text-align:center">
+					<tr>
+						<th colspan="2" scope="col">Search and Replace</th>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+F</td>
+						<td>Find</td>
+					</tr>
+					<tr>
+						<td scope="row">Ctrl+H</td>
+						<td>Replace</td>
+					</tr>
+					<tr>
+						<td scope="row">F3 / Shift+F3</td>
+						<td>Find next/previous</td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td scope="row"></td>
+						<td></td>
+					</tr>
+				</table>
+		   </div>
+		</section>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="container">
+        <span class="text-muted">&#169; 2017 Microsoft Visual Studio Informational Website by C. Wiisanen, D. Lenselink</span>
+      </div>
+    </div>  
+   <!---------------
+      begin JS ASSETS
+   ---------------->
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sweetalert2.js"></script>     
+   <!--------------
+      end JS ASSETS
+   --------------->
+  </body>
+</html>
+
